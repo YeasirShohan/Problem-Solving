@@ -1,3 +1,8 @@
+'''
+Question:
+Given a time in -hour AM/PM format, convert it to military (24-hour) time.
+'''
+
 def timeConversion(time):
     time_sign = time[8:]
     time = time[:8]
